@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="server.js"></script>
+</head>
+<body class=" bg-black text-white">
+    <nav class="fixed p-4 top-0 left-0 right-0 bg-slate-400 shadow-lg">
+        <div class="container flex mx-auto justify-center h-full items-center">
+            <div class="flex items-center">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/e/e5/NASA_logo.svg" class="h-16 w-auto mr-4"/>
+            <h1 class="font-bold font-serif text-black text-5xl">NASA</h1>
+            </div>
+        </div>
+    </nav>
+
+    <div class="mt-32"></div>
+
+    <section
+      id="apod-content"
+      class="bg-gray-600 w-full p-6 rounded-lg shadow-lg mb-8"
+    ></section>
+
+    <section
+      class="bg-gray-600 w-full p-6 rounded-lg shadow-lg mb-8"
+    >
+    <div
+    id="epic-content"
+    class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4"
+    ></div>
+    </section>
+
+    <footer class="p-2 bottom-0 left-0 right-0 bg-slate-400 flex justify-center">
+        <h5 class="font-mono text-xl">NASA © 2023</h5>
+    </footer>
+</body>
+</html>
